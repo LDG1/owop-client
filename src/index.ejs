@@ -16,7 +16,13 @@
 		<div id="load-scr">
 			<ul id="load-ul">
 				<li>
-					<img id="logo" src="<%=require('./img/owop.png')%>" width="224px" height="190px" alt="Our World Of Pixels" draggable="false"/>
+					<p id='OWOPIntro'></p>
+
+<script>
+document.getElementById('OWOPIntro').innerHTML="<img src='https://media.discordapp.net/attachments/350310580281933834/440858598214729750/owop_intro_test.gif?width=375&height=375'></img>"
+setTimeout(function(){document.getElementById('OWOPIntro').innerHTML="";},10000);
+</script>
+
 				</li>
 				<noscript>
 					<li id="noscript-msg" class="whitetext framed">
